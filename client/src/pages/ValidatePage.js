@@ -58,7 +58,7 @@ export const options = {
     },
     title: {
       display: true,
-      text: 'Exchange Rates SOL/USDC',
+      text: 'Exchange Rates ETH/USDC',
       color: 'rgba(255, 255, 255, 1)'
     },
   },
@@ -70,7 +70,7 @@ export const data = {
   labels,
   datasets: [
     {
-      label: 'Binance',
+      label: 'Coinbase',
       data: labels.map(() => Math.random()*10),
       borderColor: 'rgb(240, 185, 11)',
       backgroundColor: 'rgba(250, 223, 134, 1)',
@@ -138,7 +138,7 @@ function App() {
       <Grid container sx={{mb: "20px"}}>
         <Grid item xs={6}>
           <Typography component="h1" variant="subtitle1">
-            20 SOL
+            20 ETH
           </Typography>
         </Grid>
         <Grid item xs={6}>

@@ -63,7 +63,7 @@ function App() {
         required
         fullWidth
         name="password"
-        label="SOL/USDC"
+        label="ETH/USDC"
         type="text"
         id="password"
         autoComplete="current-password"
